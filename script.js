@@ -73,7 +73,7 @@ var page = {
         _this.setDotY();
         _this.setDotWidth();
         loop();
-      }, 50);
+      }, 10);
 
     }
   },
