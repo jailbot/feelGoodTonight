@@ -3,6 +3,11 @@ var page = {
 
   addDots: function(){
     var _this = this;
+
+
+    $("#something").css("color", "white");
+
+
     $(".canvas .dot").each(function(){
       _this.dots.push($(this));
     });

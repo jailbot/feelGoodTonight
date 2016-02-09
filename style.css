@@ -1,5 +1,12 @@
+
+@font-face{
+  font-family: "VCR";
+  src: url('./VCR.ttf');
+}
+
+
 body{
-  font-family: 'VCR OSD Mono', fixed;
+  font-family: "VCR", sans-serif;
 }
 
 .root{
@@ -26,7 +33,7 @@ body{
   background: linear-gradient(to right, white, transparent);
   z-index: 100;
   border-radius: 3px;
-  opacity: 0.5;
+  opacity: 0.2;
 }
 
 .background{
@@ -46,9 +53,10 @@ footer{
   position: absolute;
   right: 0;
   bottom: 0;
-  z-index: 1000;
+  z-index: 100;
   padding: 20px;
   text-align: right;
+  opacity: 0.75;
 }
 
 footer a{
@@ -86,6 +94,7 @@ footer path{
   z-index: 1000;
   padding: 10px;
   overflow: hidden;
+  opacity: 0.8;
 }
 .buzz_wrapper .text{
   position: absolute;
